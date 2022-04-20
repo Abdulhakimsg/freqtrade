@@ -2,7 +2,7 @@
 version: '3'
 services:
   live:
-    image: joaoraf/freqtrade:master
+    image: abdulhakimsg/freqtrade:master
     env_file: 
       - .env
     restart: unless-stopped
